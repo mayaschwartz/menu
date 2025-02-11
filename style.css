@@ -1,0 +1,20 @@
+.header {
+    padding: 60px;
+    background: #ba91a1;
+    background-color: #ebebef;
+    opacity: 0.4;
+    background-image:  repeating-linear-gradient(45deg, #f74563 25%, transparent 25%, transparent 75%, #f74563 75%, #f74563), repeating-linear-gradient(45deg, #f74563 25%, #ebebef 25%, #ebebef 75%, #f74563 75%, #f74563);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+  }
+
+  .header-text {
+    color: rgb(19, 17, 154);
+    opacity: 1;
+    font-size: 30px;
+    text-align: center;
+  }
+
+#glassjars{
+    width: 100%
+}

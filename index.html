@@ -6,6 +6,36 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
   </head>
+  
   <body>
+    <div class=" header">
+    
+        <div class= "header-text">
+          <h1>Maya's Marmalades </h1>
+          <p>The best marmalades west of the Mississippi </p>
+        </div>
+
+      </div>
+
+      <img src= "myglasses1.jpg" alt="Maya's Marmalade selections" usemap="#workmap" id="glassjars">
+
+      <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Locally sourced" href="computer.htm" onclick="myFunction(locallysourced)">
+        <area shape="rect" coords="290,172,333,250" alt="deliciously flavored" href="phone.htm" onclick="myFunction(deliciouslyflavored)">
+        <area shape="circle" coords="337,300,44" alt="Healthy and spreadable" href="coffee.htm" onclick="myFunciton(healthyandspreadable)">
+      </map>
+      
+      <script>
+        function myFunction(locallysourced) {
+          alert("Our marmalades are all locally sourced,!");
+        }
+        function myFunction(deliciouslyflavored){
+          alert("All of our marmalades have unique, fruity flavors!")
+        }
+        function myFunction(healthyandspreadable){
+          alert("These marmalades are good on bread and good for you")
+        }
+        </script>
+  
   </body>
 </html>
