@@ -7,3 +7,15 @@ const onClick=function( ) {
 }
 
 button.addEventListener("click", onClick)
+
+document.addEventListener("DOMContentLoaded", function () {
+    const toggleSwitch = document.getElementById("toggleSwitch");
+
+    toggleSwitch.addEventListener("change", function () {
+        if (this.checked) {
+            console.log("Switch is ON");
+        } else {
+            console.log("Switch is OFF");
+        }
+    });
+});
